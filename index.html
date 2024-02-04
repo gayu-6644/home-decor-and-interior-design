@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Decor & Interior Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Interior Design Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Our Interior Design Studio</h2>
+        <p>Transforming spaces into elegant and functional designs.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Add your portfolio items here -->
+        <div class="portfolio-item">
+            <img src="example1.jpg" alt="Living Room Design">
+            <h3>Living Room Design</h3>
+            <p>Description of the project...</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="example2.jpg" alt="Kitchen Renovation">
+            <h3>Kitchen Renovation</h3>
+            <p>Description of the project...</p>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Space Planning</li>
+            <li>Color Consultation</li>
+            <li>Furniture Selection</li>
+            <li>Custom Design</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Interior Design Studio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
